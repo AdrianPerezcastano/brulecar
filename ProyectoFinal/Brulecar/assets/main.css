@@ -1,0 +1,186 @@
+/**
+principal color: #14C38E;
+
+*/
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #F3F4ED;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.contenido-web{
+  width:96%;
+  margin:2%;
+}
+/** INICIO TOPNAV **/
+.topnav {
+    background-color: #444;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #F3F4ED;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #F3F4ED;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #14C38E;
+    color: F3F4ED;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  /** FIN TOPNAV **/
+
+  /** COCHES **/
+  .parrafo-comprar{
+    color: #14C38E;
+    text-align: center;
+    font-size: 200%;
+  }
+  .coche{
+    background-color:#fff;
+    color:#444;
+    width: 21%;
+    margin:2%;
+    padding:1em;
+    float:left;
+  }
+  .capa-img{
+    margin: 2%;
+    text-align:center;
+
+  }
+  .imagen{
+    max-width:96%;
+    max-height:150px;
+    padding:auto;
+  }
+  .info-coche{
+    margin:2%;
+    text-align:left;
+  }
+  .info-coche > span{
+    font-weight: bold;
+  }
+  /** FIN COCHES **/
+
+  /** COLORES **/ 
+  .color-black{ color:#000; }
+  /** FIN COLORES **/
+
+  /** LOGIN, REGISTER **/
+  .titulo-login, .titulo-register{
+    text-align: left;
+    font-size: 250%;
+    color: #14C38E;
+  }
+  /** FIN LOGIN, REGISTER **/
+
+  /** PARRAFO PRINCIPAL **/
+  .parrafo-principal-login{
+    text-align: center;
+    font-size: 250%;
+    color: #14C38E;
+  }
+  /** FIN PARRAFO PRINCIPAL **/
+
+ /** UNA VEZ REGISTRADO **/
+.parrafo-inicial{
+  text-align: center;
+  font-size: 300%;
+  color: #14C38E;
+  font-family: cursive;
+}
+
+.cerrar-sesion{
+  text-align: right;
+}
+
+ /** FIN UNA VEZ REGISTRADO **/
+
+
+  /** CONTACTO **/
+.parrafo-principal-contacto{
+  color: #14C38E;
+  text-align: center;
+  font-size: 200%;
+}
+.boton-contacto{
+  text-align: right;
+}
+  /** FIN CONTACTO **/
+
+  /** VENTA **/
+.parrafo-principal-venta{
+  color: #14C38E;
+  text-align: center;
+  font-size: 200%;
+}
+  /** FIN VENTA **/
+
+  /** FOOTER **/
+footer{
+  width: 100%;
+  background-color: #14C38E;
+  float: left;
+  text-align: center;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+  /** FIN FOOTER **/
+
+  /** INDEX **/
+.titulo{
+  color: #14C38E;
+  text-align: center;
+  font-size: 700%;
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+  background-color: #F3F4ED;
+}
+.subtitulo{
+  color: #14C38E;
+  text-align: center;
+  font-size: 200%;
+  margin-top: -3%;
+}
+.descripcion-index{
+  font-size: 160%;
+}
+  /** FIN INDEX **/
